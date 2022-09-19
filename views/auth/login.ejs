@@ -1,0 +1,18 @@
+<%- include('../includes/header.ejs')%>
+    </head>
+
+    <body>
+        <h1>Login Up</h1>
+        <form action="/login" method="post">
+            <div class="form_cont">
+                <label for="email">Email</label>
+                <input type="email" name="email" />
+            </div>
+            <div class="form_cont">
+                <label for="password">Password</label>
+                <input type="password" name="password" />
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+        <%- include('../includes/footer.ejs')%>
